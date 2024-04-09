@@ -2,13 +2,13 @@ import java.util.Stack;
 
 public class Main2 {
     public static void main(String[] args) {
-        // Пример входной строки со скобками
+        // Пример
         String input = "({[]})";
-        // Вывод результата проверки на балансировку скобок
+        // Вывод результата проверки
         System.out.println(isBalanced(input) ? "Скобки расставлены правильно" : "Скобки расставлены неправильно");
     }
 
-    // Метод для проверки балансировки скобок в строке
+    // Метод для проверки скобок в строке
     public static boolean isBalanced(String s) {
         // Использование стека для отслеживания открывающих скобок
         Stack<Character> stack = new Stack<>();
